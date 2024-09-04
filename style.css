@@ -161,9 +161,11 @@ body {
   font-size: 16px;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES
 
-/* Small Devices (Up to 600px) */
+Small Devices (Up to 600px)
+
+
 @media only screen and (max-width: 600px) {
   .heading h1 {
     font-size: 1.5rem;
@@ -174,12 +176,12 @@ body {
   }
 
   .nav {
-    top: 80px; /* Adjust to fit mobile header height */
+    top: 80px; 
     padding: 8px;
 }
 
 .main {
-    padding-top: 140px; /* Adjust to prevent content overlap */
+    padding-top: 140px; 
 }
 
   .nav ul {
@@ -203,19 +205,21 @@ body {
   }
 }
 
-/* Medium Devices (601px to 1024px) */
+Medium Devices (601px to 1024px)
+
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .heading h1 {
     font-size: 1.8rem;
   }
 
     .nav {
-        top: 90px; /* Adjust to fit tablet header height */
+        top: 90px; 
         padding: 9px;
     }
 
     .main {
-        padding-top: 150px; /* Adjust to prevent content overlap */
+        padding-top: 150px; 
     }
 
   .nav ul {
@@ -238,7 +242,9 @@ body {
   }
 }
 
-/* Large Devices (1025px and above) */
+Large Devices (1025px and above)
+
+
 @media only screen and (min-width: 1025px) {
   .heading h1 {
     font-size: 2rem;
@@ -263,7 +269,7 @@ body {
     font-size: 16px;
   }
 }
-
+ */
 
 
 
