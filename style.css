@@ -41,7 +41,7 @@ body {
 
 /* Navbar CSS */
 /* .nav {
-  position:relative;
+  position: fixed;
   top: 0;
   padding: 5px;
   width: 89%;
