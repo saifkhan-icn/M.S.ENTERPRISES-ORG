@@ -40,7 +40,7 @@ body {
 }
 
 /* Navbar CSS */
-.nav {
+/* .nav {
   position:relative;
   top: 0;
   padding: 5px;
@@ -48,7 +48,7 @@ body {
   background-color: #fff;
   z-index: 1000;
   border-bottom: 1px solid #ddd;
-}
+} */
 
 .nav ul {
   list-style: none;
