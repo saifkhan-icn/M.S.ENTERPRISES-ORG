@@ -17,9 +17,10 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-#logo{
+#logo {
   margin-top: 50px;
 }
 
@@ -41,12 +42,48 @@ body {
   color: #555;
 }
 
+
 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 6%;
+  background-color: #000000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #fdfdfd;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+/* .nav container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
   list-style-type: none;
   overflow: hidden;
   background-color: #000000;
   position: fixed;
-}
+ }
 
 li {
   float: left;
@@ -56,9 +93,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-   text-decoration: none;
-  width: 449px;
-  height: 30px;
+  text-decoration: none;
+  padding: 10px 20px;
+  width: 33.33%;
 }
 
 li a:hover:not(.active) {
@@ -67,7 +104,7 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #434645;
-}
+} */
 
 .child {
   display: flex;
