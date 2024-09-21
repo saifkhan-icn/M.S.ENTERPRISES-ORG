@@ -7,7 +7,7 @@
 body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.6;
-  padding: 25px;
+  /* padding: 25px; */
   background-color: #f9f9f9;
 }
 
@@ -15,14 +15,18 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
-  padding-top: 20px;
+  /* padding-top: 52px; */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+#logo{
+  margin-top: 50px;
+}
+
 .heading {
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-top: 20px; */
 }
 
 .heading img {
@@ -54,8 +58,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+   text-decoration: none;
+  width: 449px;
+  height: 30px;
 }
 
 li a:hover:not(.active) {
@@ -63,7 +68,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #434645;
 }
 
 .child {
@@ -157,10 +162,9 @@ li a:hover:not(.active) {
   font-size: 12px;
 }
 
- /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
 /* Small Devices (Up to 600px) */
-
 
 @media only screen and (max-width: 600px) {
   .heading h1 {
@@ -172,13 +176,13 @@ li a:hover:not(.active) {
   }
 
   .nav {
-    top: 80px; 
+    top: 80px;
     padding: 8px;
-}
+  }
 
-.main {
-    padding-top: 50px; 
-}
+  .main {
+    padding-top: 50px;
+  }
 
   .nav ul {
     flex-direction: column;
@@ -203,20 +207,19 @@ li a:hover:not(.active) {
 
 /* Medium Devices (601px to 1024px) */
 
-
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .heading h1 {
     font-size: 1.8rem;
   }
 
-    .nav {
-        top: 90px; 
-        padding: 9px;
-    }
+  .nav {
+    top: 90px;
+    padding: 9px;
+  }
 
-    .main {
-        padding-top: 70px; 
-    }
+  .main {
+    padding-top: 70px;
+  }
 
   .nav ul {
     gap: 15px;
@@ -239,7 +242,6 @@ li a:hover:not(.active) {
 }
 
 /* Large Devices (1025px and above) */
-
 
 @media only screen and (min-width: 1025px) {
   .heading h1 {
@@ -265,7 +267,3 @@ li a:hover:not(.active) {
     font-size: 16px;
   }
 }
- 
-
-
-
