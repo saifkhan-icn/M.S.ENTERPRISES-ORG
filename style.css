@@ -7,7 +7,7 @@
 body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.6;
-  padding: 20px;
+  padding: 25px;
   background-color: #f9f9f9;
 }
 
@@ -15,7 +15,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
-  padding-top: 30px;
+  padding-top: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .main {
-    padding-top: 140px; 
+    padding-top: 50px; 
 }
 
   .nav ul {
