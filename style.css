@@ -15,7 +15,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
-  /* padding-top: 52px; */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -26,7 +25,6 @@ body {
 
 .heading {
   text-align: center;
-  /* margin-top: 20px; */
 }
 
 .heading img {
