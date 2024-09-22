@@ -1,3 +1,3 @@
-// alert("WELCOME TO M.S.ENTERPRISES")
+alert("WELCOME TO M.S.ENTERPRISES")
 
 
