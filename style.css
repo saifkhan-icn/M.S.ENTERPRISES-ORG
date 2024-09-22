@@ -17,11 +17,10 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* padding: 20px; */
 }
 
 #logo{
-  padding-top: 20px;
+  padding-top: 45px;
 }
 
 
@@ -66,7 +65,7 @@ li a {
   text-align: center;
   text-decoration: none;
   padding: 10px 20px;
-  margin-left: 60px;
+  margin-left: 65px;
 }
 
 li a:hover:not(.active) {
