@@ -7,7 +7,6 @@
 body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.6;
-  /* padding: 25px; */
   background-color: #f9f9f9;
 }
 
@@ -17,12 +16,12 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 25px;
 }
 
-#logo{
+#logo {
   padding-top: 50px;
 }
-
 
 .heading {
   text-align: center;
@@ -42,7 +41,7 @@ body {
   color: #555;
 }
 
-#h2{
+#h2 {
   margin-left: 20px;
 }
 
@@ -52,12 +51,15 @@ body {
 }
 
 ul {
-  padding: 10;
   list-style-type: none;
-  overflow: hidden;
   background-color: #fff;
   position: fixed;
- }
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  top: 0;
+}
 
 li {
   float: left;
@@ -68,8 +70,7 @@ li a {
   color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
-  padding: 12px 0px;
-  margin-left: 30px;
+  padding: 12px 10px;
 }
 
 li a:hover:not(.active) {
@@ -88,10 +89,10 @@ li a:hover:not(.active) {
 }
 
 .child div {
-  color: rgb(0, 0, 0);
-  margin-top: 5px;
-  display: flex;
+  /* color: rgb(0, 0, 0);
+  margin-top: 5px; */
   flex-wrap: wrap;
+  display: flex;
   justify-content: center;
   height: 100%;
   width: 100%;
@@ -125,12 +126,12 @@ li a:hover:not(.active) {
   color: #666;
 }
 
-.about pre {
+/* .about pre {
   background-color: #f9f9f9;
   padding: 15px;
   border-radius: 8px;
   overflow-x: auto;
-}
+} */
 
 #info {
   margin-top: 40px;
@@ -151,6 +152,7 @@ li a:hover:not(.active) {
 #contact div {
   flex: 1 1 calc(33.333%-20px);
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #contact i {
@@ -184,18 +186,8 @@ li a:hover:not(.active) {
     font-size: 1rem;
   }
 
-  .nav {
-    top: 80px;
-    padding: 8px;
-  }
-
-  .main {
-    padding-top: 50px;
-  }
-
   .nav ul {
     flex-direction: column;
-    gap: 10px;
   }
 
   .child div {
@@ -208,8 +200,8 @@ li a:hover:not(.active) {
   }
 
   .footer {
-    padding: 10px;
-    margin-top: 20px;
+    /* padding: 10px;
+    margin-top: 20px; */
     font-size: 14px;
   }
 }
@@ -219,15 +211,6 @@ li a:hover:not(.active) {
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .heading h1 {
     font-size: 1.8rem;
-  }
-
-  .nav {
-    top: 90px;
-    padding: 9px;
-  }
-
-  .main {
-    padding-top: 70px;
   }
 
   .nav ul {
@@ -244,8 +227,8 @@ li a:hover:not(.active) {
   }
 
   .footer {
-    padding: 15px;
-    margin-top: 25px;
+    /* padding: 15px;
+    margin-top: 25px; */
     font-size: 15px;
   }
 }
@@ -271,8 +254,8 @@ li a:hover:not(.active) {
   }
 
   .footer {
-    padding: 20px;
-    margin-top: 30;
+    /* padding: 20px;
+    margin-top: 30; */
     font-size: 16px;
   }
 }
