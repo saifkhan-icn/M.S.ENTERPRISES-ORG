@@ -20,7 +20,7 @@ body {
 }
 
 #logo{
-  padding-top: 45px;
+  padding-top: 10px;
 }
 
 
@@ -40,6 +40,10 @@ body {
 .caption {
   font-size: 1.2rem;
   color: #555;
+}
+
+#h2{
+  margin-left: 20px;
 }
 
 .nav container {
