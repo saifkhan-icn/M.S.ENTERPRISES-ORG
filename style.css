@@ -20,13 +20,13 @@ body {
 }
 
 #logo {
-  padding-top: 50px;
+  padding-top: 40px;
   width: 210px;
   object-fit: cover;
  }
 
   .heading {
-  text-align: center;
+  text-align: left;
 }
 
 #h2 {
