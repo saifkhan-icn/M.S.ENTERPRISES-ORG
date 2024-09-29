@@ -40,13 +40,11 @@ body {
 
 ul {
   list-style-type: none;
-  background-color: #fff;
+  background-color: #000000;
   position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px;
-  top: 0;
 }
 
 li {
@@ -55,7 +53,7 @@ li {
 
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
   padding: 12px 5px;
