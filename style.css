@@ -70,7 +70,7 @@ li a {
   color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
-  padding: 12px 10px;
+  padding: 12px 0px;
 }
 
 li a:hover:not(.active) {
@@ -178,6 +178,7 @@ li a:hover:not(.active) {
 /* Small Devices (Up to 600px) */
 
 @media only screen and (max-width: 600px) {
+  
   .heading h1 {
     font-size: 1.5rem;
   }
@@ -187,6 +188,7 @@ li a:hover:not(.active) {
   }
 
   .nav ul {
+    top: 20px;
     flex-direction: column;
   }
 
