@@ -153,7 +153,7 @@ li a:hover:not(.active) {
 
 /* MEDIA QUERIES */
 
-/* Small Devices (Up to 600px) */
+/* Small Devices (Up to 600px)
 @media only screen and (max-width: 600px) {
   body {
     font-size: 0.9rem;
@@ -202,7 +202,7 @@ li a:hover:not(.active) {
   }
 }
 
-/* Medium Devices (601px to 1024px) */
+Medium Devices (601px to 1024px)
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   body {
     font-size: 1rem;
@@ -250,7 +250,7 @@ li a:hover:not(.active) {
   }
 }
 
-/* Large Devices (1025px and above) */
+Large Devices (1025px and above)
 @media only screen and (min-width: 1025px) {
   body {
     font-size: 1.1rem;
@@ -277,9 +277,9 @@ li a:hover:not(.active) {
     padding: 15px;
   }
 
-  /* .child div {
+   .child div {
     flex: 1 1 calc(33.333% - 20px);
-  } */
+  } 
 
   .child div img {
     width: 210px;
@@ -296,4 +296,4 @@ li a:hover:not(.active) {
   .footer {
     font-size: 16px;
   }
-}
+} */
